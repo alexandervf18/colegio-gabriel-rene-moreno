@@ -12,7 +12,7 @@ import vidaEscolar2 from '../assets/images/vida-escolar2.jpeg';
 import vidaEscolar3 from '../assets/images/vida-escolar3.jpeg';
 import inicioEscolar from '../assets/images/inicio-escolar.png';
 import campamentoTrabajo from '../assets/images/campamento-trabajo.png';
-import eucaristia from '../assets/images/eucaristia.png'
+import eucaristia from '../assets/images/eucaristia.png';
 
 
 function Inicio() {
@@ -145,7 +145,7 @@ function Inicio() {
       <Container className="seccion">
         <Row className="align-items-center">
           <Col md={6}>
-            <h2 className="mb-4">Bienvenidos al Colegio Gabriel René Moreno holaa</h2>
+            <h2 className="mb-4">Bienvenidos al Colegio Gabriel René Moreno</h2>
             <p className="lead">
               Somos un centro educativo católico que la iglesia - a través del Instituto de los 
               Hermanos Maristas y Fe y Alegría - ofrece a la sociedad comarapeña desde 1971, 
