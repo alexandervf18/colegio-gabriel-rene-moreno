@@ -1,0 +1,82 @@
+/* Global color palette for Colegio Marista */
+:root {
+  --azul-marista: #003d82;
+  --azul-claro: #0066cc;
+  --dorado: #d4af37;
+  --blanco: #ffffff;
+  --gris-claro: #f8f9fa;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Smooth transitions for interactive elements */
+a, button, .card {
+  transition: all 0.3s ease;
+}
+
+/* Hover effects */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 61, 130, 0.2);
+}
+
+.btn-primary {
+  background-color: var(--azul-marista);
+  border-color: var(--azul-marista);
+}
+
+.btn-primary:hover {
+  background-color: var(--azul-claro);
+  border-color: var(--azul-claro);
+}
+
+/* Section spacing */
+.seccion {
+  padding: 60px 0;
+}
+
+.seccion-alternativa {
+  background-color: var(--gris-claro);
+}
+
+/* Headings with school colors */
+h1, h2, h3 {
+  color: var(--azul-marista);
+}
+
+.texto-dorado {
+  color: var(--dorado);
+}
+
+/* Hero section styling */
+.hero-seccion {
+  position: relative;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Card styling */
+.tarjeta-personalizada {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 100%;
+}
+
+/* Footer styling */
+footer {
+  background-color: var(--azul-marista);
+  color: white;
+}
+
+footer a {
+  color: var(--dorado);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+}
