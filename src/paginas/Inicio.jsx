@@ -13,8 +13,7 @@ import vidaEscolar3 from '../assets/images/vida-escolar3.jpeg';
 import inicioEscolar from '../assets/images/inicio-escolar.png';
 import campamentoTrabajo from '../assets/images/campamento-trabajo.png';
 import eucaristia from '../assets/images/eucaristia.png';
-
-
+import imagenpastoral from '../assets/images/imagen.1.jpg';
 function Inicio() {
   // Navigation hook
   const navigate = useNavigate();
@@ -122,7 +121,7 @@ function Inicio() {
       <div 
         className="hero-seccion d-flex align-items-center justify-content-center text-center"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 61, 130, 0.3), rgba(0, 61, 130, 0.3)), url(${colegioImage})`,
+          backgroundImage: `linear-gradient(rgba(0, 61, 130, 0.3), rgba(0, 61, 130, 0.3)), url(${imagenpastoral})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           minHeight: '400px'
@@ -145,7 +144,7 @@ function Inicio() {
       <Container className="seccion">
         <Row className="align-items-center">
           <Col md={6}>
-            <h2 className="mb-4">Bienvenidos al Colegio Gabriel René Moreno</h2>
+            <h2 className="mb-4">Bienvenidos al Colegio Gabriel René Moreno </h2>
             <p className="lead">
               Somos un centro educativo católico que la iglesia - a través del Instituto de los 
               Hermanos Maristas y Fe y Alegría - ofrece a la sociedad comarapeña desde 1971, 

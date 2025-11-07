@@ -2,7 +2,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 function PieDePagina() {
   return (
-    <footer className="py-5 mt-5">
+    <footer className="py-5 mt-5   ">
       <Container>
         <Row>
           {/* Contact information section */}
@@ -20,8 +20,11 @@ function PieDePagina() {
               <i className="bi bi-envelope-fill me-2"></i>
               elmeralexandervf18@gmail.com
             </p>
+             <p className="mb-1">
+              <i className="bi bi-envelope-fill me-2"></i>
+              breidyrojascotrina10@gmail.com
+               </p>
           </Col>
-          
           {/* Quick links section */}
           <Col md={4} className="mb-4">
             <h5 className="texto-dorado">Enlaces Rápidos</h5>
